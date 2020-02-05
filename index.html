@@ -47,23 +47,38 @@
             display: inline;
             padding: 20px 12px;
         }
+        a {
+            color: black;
+        }
         #google-header-icons{
             position: relative;
             top: -12px;
         }
+        #footer-bar {
+            position: relative;
+            top: 300px; 
+        }
+        #grey-box {
+            display: flex;
+            height: 60px;
+            width: 100%;
+            background-color: rgba(242, 242, 242, 0.94);
+            opacity: 0.5;
+            position: relative;
+            top: 240px;
+        }
     </style>
 
     <body>
-        <ul>
-            <li style="float:left"><a href="https://www.notaworkinglink1.com/">About</li>
-            <li style="float:left"><a href="https://www.notaworkinglink2.com/">Store</li>
-            <li style="float:right"><a href="https://www.notaworkinglink3.com"><img id="google-header-icons" src="https://i.imgur.com/ZrWjTZy.png" alt="Google header icons"></li>
-            <li style="float:right"><a href="https://www.notaworkinglink.com/">Images</li>
-            <li style="float:right"><a href="https://www.notaworkinglink.com/">Gmail</li>
-        </ul>
-
-
-
+        <div class="header-bar">
+            <ul>
+                <li style="float:left"><a href="https://www.notaworkinglink1.com/">About</li>
+                <li style="float:left"><a href="https://www.notaworkinglink2.com/">Store</li>
+                <li style="float:right"><a href="https://www.notaworkinglink3.com"><img id="google-header-icons" src="https://i.imgur.com/ZrWjTZy.png" alt="Google header icons"></li>
+                <li style="float:right"><a href="https://www.notaworkinglink.com/">Images</li>
+                <li style="float:right"><a href="https://www.notaworkinglink.com/">Gmail</li>
+            </ul>
+        </div>
 
         <a href="https://www.google.com/"></a>
           <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
@@ -72,53 +87,28 @@
           <input id="google-search" type="text">
         </div>
         <div class="search-buttons">
-            <button type="search-all">Google Search</button>
-            <button type="search-one">I'm Feeling Lucky</button>
+            <form action="https://www.google.com">
+                <button type="search-all">Google Search</button>
+                <button type="search-one">I'm Feeling Lucky</button>
+            </form>
         </div>
 
+        <div class="footer-bar">
+            <ul>
+                <li id="footer-bar" style="float:left"><a href="https://www.notaworkinglink1.com/">Advertising</li>
+                <li id="footer-bar" style="float:left"><a href="https://www.notaworkinglink2.com/">Business</li id="footer-bar">
+                <li id="footer-bar" style="float:left"><a href="https://www.notaworkinglink2.com/">How Search works</li id="footer-bar">
+                <li id="footer-bar" style="float:right"><a href="https://www.notaworkinglink.com/">Settings</li id="footer-bar">
+                <li id="footer-bar" style="float:right"><a href="https://www.notaworkinglink.com/">Terms</li id="footer-bar">
+                <li id="footer-bar" style="float:right"><a href="https://www.notaworkinglink.com/">Privacy</li id="footer-bar">
+            </ul>
+        </div>
 
-
-
-
-
-
-
-
-
-
-
+        <div id="grey-box">
+            <div id="box-1">
+            </div>
+        </div>
 
     </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </html>
